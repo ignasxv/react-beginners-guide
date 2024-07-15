@@ -23,7 +23,7 @@ function ListGroup({items = [1,2,3], heading}: PropsName) {
             className={
               "list-group-item " + (arr[0] === index ? "active" : "")
             }
-            onClick={(e) => {arr[1](index)}}
+            onClick={() => {arr[1](index)}}
           >
             {item}
           </li>
