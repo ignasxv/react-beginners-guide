@@ -26,7 +26,7 @@ export default function ListGroupApp() {
 
   return (
     <>
-    <h1 className="display-1" >List Group App</h1>
+    <h1 className="display-1" >List Group AppEer</h1>
       <ListGroup
         items={Buttons}
         heading="Listed Buttons"
